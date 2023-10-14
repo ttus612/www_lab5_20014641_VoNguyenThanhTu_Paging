@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div th:switch="${candidates}" >
+    <h2 th:case="null">No candidates yet!</h2>
+    <div th:case="*">
+        <h2>Candidates</h2>
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>dob</th>
+                <th>address</th>
+                <th>phone</th>
+                <th>email</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="candidate : ${candidates}">
+                <td th:text="${candidate.id}"></td>
+                <td th:text="${candidate.fullName}"></td>
+                <td th:text="${candidate.dob}"></td>
+                <td th:text="${candidate.address}"></td>
+                <td th:text="${candidate.phone}"></td>
+                <td th:text="${candidate.email}"></td>
+                <td><a th:href="@{/edit/{id}(id=${candidate.id})}">Edit</a></td>
+                <td><a th:href="@{/delete/{id}(id=${candidate.id})}">Delete</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--    <p><a href="/add">Add a new user</a></p>-->
+</div>
+
+
+<!-- Đường dẫn tới các tệp JavaScript của Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
