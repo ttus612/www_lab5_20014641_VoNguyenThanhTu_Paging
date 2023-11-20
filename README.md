@@ -39,8 +39,21 @@ Bài tập thực hành lab 5 tuần 6 WWW
 
 # 😍Trình bày về project:
 <p>
-  Hiểu được các cách khai báo beans
+  Khi chưa có phân trang
+</p>
+ <img src="images/chua_phan_trang.jpg" width = 100%/
+<p>
+  Khi đã có phân trang
 </p>
 <p>
-  Hiểu được Object Injection
+  Khi đã có phân trang( khi đứng ở trang đâu tiên)
 </p>
+ <img src="images/Co_phan_trang.jpg" width = 100%/
+ <p>
+  Khi đã có phân trang( khi nhấn các nút chuyển)
+</p>
+ <img src="images/Co_phan_trang_2.jpg" width = 100%/
+<p>
+  Khi đã có phân trang( khi đứng ở trang cuối)
+</p>
+ <img src="images/Co_phan_trang_3.jpg" width = 100%/
