@@ -5,7 +5,7 @@ Bài tập thực hành lab 5 tuần 6 WWW
 
 - ✍ I'm a student of: [Industrial University of Ho Chi Minh City](https://iuh.edu.vn/).
 - ✍ Subject : WWW với Công nghệ java
-- ✍ Content: Nội dung bài tập tuần 4
+- ✍ Content: Nội dung bài tập lab 5
 
 <br />
 
@@ -34,7 +34,7 @@ Bài tập thực hành lab 5 tuần 6 WWW
 
 # 📒Yêu cầu Project :
 <p>
-  Thực hành tìm hiểu về spring boot
+  Thực hành vê việc phân trang
 </p>
 
 # 😍Trình bày về project:
