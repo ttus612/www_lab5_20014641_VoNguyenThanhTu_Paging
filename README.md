@@ -57,3 +57,6 @@ Bài tập thực hành lab 5 tuần 6 WWW
   Khi đã có phân trang( khi đứng ở trang cuối)
 </p>
  <img src="images/Co_phan_trang_3.jpg" width = 100%/
+<p>
+============================================================
+</p>
